@@ -19,7 +19,7 @@ app.use(express.json());
 // If Node is running inside Docker, use this instead:
 const mongoUrlLocal = "mongodb://admin:password@mongodb";
 
-const databaseName = "my-db";
+const databaseName = "user-accounts";
 
 
 // Serve frontend
